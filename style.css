@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav .full-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: stretch;
+    list-style: none;
+    align-items: center;
+}
+
+nav .full-section a {
+    margin-right: 10px;
+    color: black;
+}
+
+header .rigth-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+nav .full-section #notifications {
+    background-image: url("https://png.pngtree.com/element_our/20190530/ourmid/pngtree-flat-bell-png-download-image_1256842.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+nav .full-section #message {
+    background-image: url("https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-message-icon-png-image_515456.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+nav .full-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+header section #input {
+    width: 350px;
+    margin: 0 auto;
+    ;
+}
+
+header .header-input-container {
+    width: 1100px;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #e9e9e9
+}
+
+
+header #input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #e9e9e9;
+
+}
+
+header .header-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    background-color: #e9e9e9;
+}
+
+header #input .search-icon {
+    align-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+header #input img {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 18px;
+    height: 18px;
+}
+
+header button {
+    width: 70px;
+    margin: 0 auto;
+    height: 36px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+header .inicio button {
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* Main */
+
+
+.pin_container_first{
+  
+    margin-top: 5px;
+   display: flex;
+   
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+.card{
+    background-color:  #ffffff;
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 2px;
+}
+
+
+.card>img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.card:hover {
+    box-shadow: 5px px 6px 0 #20212447;
+    background-color: #5f6368;
+  
+}
+
+@media screen and (max-width: 830px) {
+    .pin_container_first{
+        flex-direction: column;
+        height: auto;
+    }
+    .card{
+        max-width: 500px;
+        margin: 30px 0;
+        
+    }
+}
